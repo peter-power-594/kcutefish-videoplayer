@@ -13,6 +13,12 @@ sudo dnf in task-devel
 sudo dnf install extra-cmake-modules (qtbase5-dev qtdeclarative5-dev qtquickcontrols2-5-dev) lib64mpv-devel
 ```
 
+## Ubuntu Dependencies
+
+```shell
+sudo apt install extra-cmake-modules qtbase5-dev qtdeclarative5-dev qtquickcontrols2-5-dev libmpv-dev
+```
+
 ## Build
 
 ```shell
@@ -26,6 +32,13 @@ make
 
 ```shell
 sudo make install
+```
+
+## Uninstall
+
+```shell
+rm /usr/bin/cutefish-videoplayer
+rm /usr/share/applications/cutefish-videoplayer.desktop
 ```
 
 # License
